@@ -3,30 +3,29 @@ package week5;
 public class App {
 
   public static void main(String[] args) {
-    // Create an instance of AsteriskLogger using the Logger interface reference
+    
     Logger asteriskLogger = new AsteriskLogger();
 
-    // Create an instance of SpacedLogger using the Logger interface reference
+  
     Logger spacedLogger = new SpacedLogger();
 
-    // Print a header before calling the log method on AsteriskLogger
+   
     System.out.println("AsteriskLogger log:");
-    // Call the log method on asteriskLogger with the string "Star"
+    
     asteriskLogger.log("Star");
 
-    // Print a header before calling the error method on AsteriskLogger
     System.out.println("\nAsteriskLogger error:");
-    // Call the error method on asteriskLogger with the string "Star"
+  
     asteriskLogger.error("Star");
 
-    // Print a header before calling the log method on SpacedLogger
+    
     System.out.println("\nSpacedLogger log:");
-    // Call the log method on spacedLogger with the string "Star"
+  
     spacedLogger.log("Star");
 
-    // Print a header before calling the error method on SpacedLogger
+   
     System.out.println("\nSpacedLogger error:");
-    // Call the error method on spacedLogger with the string "Star"
+  
     spacedLogger.error("Star");
   }
 } 
